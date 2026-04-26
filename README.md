@@ -3,7 +3,7 @@ A Compact Internet Booster, Mouse Speed & Small Keylogger Utility
 
 # How to Download & Run
 1. Download: Download the project as a ZIP file from the GitHub repository.
-2. Execute: Open the dist folder and locate the .exe file.
+2. Locate: The application exe.
 3. Run: Double-click the executable to start the application.
 4. Troubleshooting: If you encounter errors such as "STDN missing" or other startup issues, please follow the VS Code setup instructions below.
 
