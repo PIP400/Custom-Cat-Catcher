@@ -127,8 +127,8 @@ class CustomCatCatcher:
         for i, l in enumerate(labels):
             tk.Checkbutton(b_frame, text=l, variable=self.check_vars[i], bg="#0f0f0f", fg="white", selectcolor="#000").pack(anchor="w")
         footer = tk.Frame(self.root, bg="#111", height=30); footer.pack(side="bottom", fill="x")
-        tk.Label(footer, text="Dev. REZ360 |", bg="#111", fg="#666", font=("Arial", 8)).pack(side="left", padx=(20, 5), pady=5)
-        soc = [("Patreon", "https://www.patreon.com/your_link"), ("GitHub", "https://github.com/REZ368"), ("Portfolio", "https://drive.google.com/drive/folders/1Wc7hAKtkbaZ7miG00uqkYFgN5SGxCKnP?usp=sharing")]
+        tk.Label(footer, text="Dev. REZ420 |", bg="#111", fg="#666", font=("Arial", 8)).pack(side="left", padx=(20, 5), pady=5)
+        soc = [("Patreon", "https://www.patreon.com/your_link"), ("GitHub", "https://github.com/PIP400"), ("Portfolio", "https://drive.google.com/drive/folders/1Wc7hAKtkbaZ7miG00uqkYFgN5SGxCKnP?usp=sharing")]
         for t, u in soc:
             lbl = tk.Label(footer, text=t, bg="#111", fg="#00ffcc", font=("Arial", 8, "bold"), cursor="hand2")
             lbl.pack(side="left", pady=5); lbl.bind("<Button-1>", lambda e, url=u: webbrowser.open_new(url))
